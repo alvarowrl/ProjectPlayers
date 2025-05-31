@@ -23,6 +23,7 @@ public class Clube {
     public int getIdClube() {
         return idClube;
     }
+    
 
     public void setIdClube(int idClube) {
         this.idClube = idClube;
