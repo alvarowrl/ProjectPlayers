@@ -28,7 +28,6 @@ public class Clube {
     }
 
 
-    
 
     public String getNomeClube() {
         return nomeClube;
