@@ -27,8 +27,6 @@ public class Clube {
         this.idClube = idClube;
     }
 
-
-
     public String getNomeClube() {
         return nomeClube;
     }

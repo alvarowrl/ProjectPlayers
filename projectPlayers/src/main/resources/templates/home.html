@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Jogador</title>
+</head>
+<body>
+    <form action="/SalvarJogador" method="post" th:object="${jogador}">
+        <input type="text" name="nomeJogador" placeholder="NOME" required="" th:field="*{nomeJogador}">
+        <input type="text" name="idade" placeholder="IDADE" required="" th:field="*{idade}">
+        <input type="text" name="posicao" placeholder="POSIÇÃO" required="" th:field="*{posicao}">
+        <input type="text" name="nacionalidade" placeholder="NACIONALIDADE" required="" th:field="*{nacionalidade}">
+        <button type="submit">CADASTRAR JOGADOR</button>
+    </form>
+</body>
+</html>
